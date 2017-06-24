@@ -1,0 +1,182 @@
+/*样式重置*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+area {
+	text-decoration: none;
+	color: #999;
+	outline: 0;
+	cursor: pointer;
+}
+
+body {
+	font-family: "Microsoft YaHei", simSun, "Lucida Grande", "Lucida Sans Unicode", Arial;
+	background: #fff;
+	/*隐藏右侧滚动条*/
+	/*	overflow-y: hidden;*/
+}
+
+body,
+textarea,
+input,
+button {
+	color: #62a1c9;
+}
+
+img,
+input {
+	border: 0;
+	outline: none;
+	vertical-align: middle;
+}
+
+table {
+	table-layout: fixed;
+	empty-cells: show;
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+table td,
+table th {
+	line-height: 24px;
+	border: 1px solid #1a1d1e;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 8px 15px;
+}
+
+
+/*设置一些公用的类*/
+
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+
+/*IE兼容*/
+
+.clear {
+	zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+/*板芯*/
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*设置按钮小手指针*/
+
+button {
+	cursor: pointer;
+}
+
+ul,
+menu,
+dir {
+	display: block;
+	list-style-type: disc;
+}
+
+
+/*清除定位*/
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+img {
+	vertical-align: top;
+}
+
+
+/*图形文字*/
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+	font-weight: 700;
+}
